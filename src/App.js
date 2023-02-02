@@ -1,15 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from "./MyComponents/Header";
-import TodosItem from "./MyComponents/TodosItem";
 import Todos from './MyComponents/Todos'
 import Footer from './MyComponents/Footer';
 import AddTodo from './MyComponents/AddTodo';
-import About from './MyComponents/About';
 import React, { useState, useEffect } from 'react';
-import { cleanup } from '@testing-library/react';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
